@@ -54,7 +54,6 @@
     cursor: pointer;
 }
 
-
 .ip-information{
     position: absolute;
     background-color: white;
@@ -65,6 +64,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 2.4rem 2rem;
+    z-index: 10;
 }
 .ip-information h5{
     text-transform: uppercase;
@@ -92,9 +92,10 @@ div.isp{
     padding-left: 2rem;
 }
 
-.map-section{
-    background-color: black;
+.map{
     height: 70vh;
+    background-color: black;
+    z-index: 0;
 }
 @media (min-width: 668px) and (max-width: 900px){
     .ip-information{
