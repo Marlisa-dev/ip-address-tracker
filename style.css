@@ -11,7 +11,7 @@
     font-family: Rubik, sans-serif;
 }
 .header-background{
-    background-image: url('images/pattern-bg-desktop.png');
+    background-image: url('../images/pattern-bg-desktop.png');
     background-size: cover;
 }
 
@@ -111,7 +111,7 @@ div.isp{
 
 @media screen and (max-width: 667px){
     .header-background{
-        background-image: url('images/pattern-bg-mobile.png');
+        background-image: url('../images/pattern-bg-mobile.png');
     }
     .header-section{
         height: 36vh;
